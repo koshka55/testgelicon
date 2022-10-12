@@ -1,0 +1,47 @@
+{
+    "name": "test-gelicon",
+    "description": "Тестовое для Геликон",
+    "version": "1.0.1",
+    "main": "gulpfile.mjs",
+    "private": true,
+    "author": "Fedorova J.",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/koshka55/test-gelicon.git"
+    },
+    "scripts": {
+        "clean": "npx gulp clean",
+        "build-dev": "npx gulp build --development",
+        "build-prod": "npx gulp build --production",
+        "build": "npx gulp build --production",
+        "watch": "npx gulp watch"
+    },
+    "devDependencies": {
+        "@babel/core": "^7",
+        "@babel/plugin-transform-runtime": "^7",
+        "@babel/preset-env": "^7",
+        "@babel/runtime": "^7",
+        "@rollup/plugin-babel": "*",
+        "@rollup/plugin-commonjs": "*",
+        "@rollup/plugin-node-resolve": "*",
+        "@rollup/plugin-strip": "*",
+        "core-js": ">=3",
+        "cssnano": ">=5",
+        "del": "*",
+        "gulp": ">=4",
+        "gulp-concat": "*",
+        "gulp-html-minifier-terser": "*",
+        "gulp-if": "*",
+        "gulp-imagemin": "*",
+        "gulp-postcss": "*",
+        "gulp-sass": "*",
+        "gulp-sourcemaps": "*",
+        "postcss": "*",
+        "postcss-flexbugs-fixes": "*",
+        "postcss-preset-env": "*",
+        "rollup": "^2",
+        "rollup-plugin-terser": "*",
+        "sass": "*"
+    }
+}
